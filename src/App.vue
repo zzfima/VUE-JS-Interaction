@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <InformationManager />
+    <InformationManagerJS />
   </div>
 </template>
 
 <script>
-import InformationManager from "./components/InformationManager.vue";
+import InformationManagerJS from "./components/JSComponents/InformationManagerJS";
 
 export default {
   name: "App",
   components: {
-    InformationManager,
+    InformationManagerJS,
   },
 };
 </script>
