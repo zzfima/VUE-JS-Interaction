@@ -9,7 +9,7 @@
 import { CurrentTimeJS } from "./CurrentTimeJS";
 
 export default {
-  name: "InformationManager",
+  name: "InformationManagerJS",
   data() {
     return {
       current_time: "",
